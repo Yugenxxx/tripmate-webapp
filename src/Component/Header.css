@@ -1,0 +1,145 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 400;
+  background-color: black;
+  padding: 8px 0;
+  color: white;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+#top-header {
+  padding: 1px 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  transition: color 0.3s ease;
+}
+
+header a:hover,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: red !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 12px;
+  color: white !important;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 12px;
+}
+
+header ul li i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+header ul li a:hover i {
+  color: red;
+}
+#top-header {
+  transition: all 0.0s ease;
+  overflow: hidden;
+}
+header ul li {
+  color: white;
+}
+/* Nút Edit Profile */
+.btn-edit-profile {
+  background: #ec4899;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btn-edit-profile:hover {
+  background: #db2777;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Logout button */
+.logout-btn {
+  color: #fff;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  color: #f87171;
+}
+
+/* Sign In button */
+.btn-signin {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-signin:hover {
+  color: #f87171;
+  text-decoration: none;
+}
+/* Hiệu ứng ẩn hiện Top Header */
+/* Top Header */
+#top-header {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#top-header.hide {
+  transform: translateY(-100%); /* dịch lên trên, không thay đổi layout */
+  opacity: 0;
+}
+
+/* Navbar */
+.main-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 400;
+  background-color: black;
+  transition: all 0.3s ease;
+  padding: 10px 0;
+}
+
+.main-navbar.scrolled {
+  padding: 4px 0; /* thu nhỏ padding */
+  background-color: rgba(0,0,0,0.9);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+.main-navbar .navbar-brand img {
+  transition: all 0.3s ease;
+  height: 60px;
+}
+
+.main-navbar.scrolled .navbar-brand img {
+  height: 40px; /* thu nhỏ khi scroll */
+}
+
+/* Menu items */
+.main-navbar .nav-link {
+  transition: all 0.3s ease;
+  font-size: 12px;
+}
+
+.main-navbar.scrolled .nav-link {
+  font-size: 10px; /* thu nhỏ khi scroll */
+}
+
+
+
