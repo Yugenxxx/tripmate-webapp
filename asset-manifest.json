@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tripmate-webapp/static/css/main.310db1ae.css",
+    "main.js": "/tripmate-webapp/static/js/main.a4eada19.js",
+    "static/js/239.e4a0b263.chunk.js": "/tripmate-webapp/static/js/239.e4a0b263.chunk.js",
+    "static/js/977.90f128ab.chunk.js": "/tripmate-webapp/static/js/977.90f128ab.chunk.js",
+    "static/js/732.94b800de.chunk.js": "/tripmate-webapp/static/js/732.94b800de.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/tripmate-webapp/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/tripmate-webapp/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/slick.svg": "/tripmate-webapp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tripmate-webapp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tripmate-webapp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/tripmate-webapp/index.html",
+    "static/media/slick.woff": "/tripmate-webapp/static/media/slick.295183786cd8a1389865.woff",
+    "main.310db1ae.css.map": "/tripmate-webapp/static/css/main.310db1ae.css.map",
+    "main.a4eada19.js.map": "/tripmate-webapp/static/js/main.a4eada19.js.map",
+    "239.e4a0b263.chunk.js.map": "/tripmate-webapp/static/js/239.e4a0b263.chunk.js.map",
+    "977.90f128ab.chunk.js.map": "/tripmate-webapp/static/js/977.90f128ab.chunk.js.map",
+    "732.94b800de.chunk.js.map": "/tripmate-webapp/static/js/732.94b800de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.310db1ae.css",
+    "static/js/main.a4eada19.js"
+  ]
+}
